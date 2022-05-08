@@ -1,21 +1,21 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 //#define Dodelat
 //#define Dodelat2
 //#define Dodelat3
 
 
-void Fill_Rand(int a, int b);					    //Заполняет массив рандомными числами
-void Print(int a, int b);						    //Выводит массив на экран
-void Sortmin(const int SIZE, int arr[]);		    //Cортирует массив
-void Sortmax(const int SIZE, int arr[]);		    //Cортирует массив
-int Sum(const int SIZE, int arr[]);				    //Возвращает сумму элементов массива
-double Avg(int average, int arr[]);			    //Возвращает среднее арифметическое массива
-int minValueIn(const int SIZE, int arr[]);		    //Возвращает минимальное значение массива
-int maxValueIn(const int SIZE, int arr[]);		    //Возвращает максимальное значение массива
-void shiftLeft(const int SIZE, int arr[], int number);		    //Циклический сдвиг массива влево на заданное число
-void shiftRight(const int SIZE, int arr[], int number);		    //Циклический сдвиг массива вправо на заданное число
-int UniqueRand(const int SIZE, int arr[]);		    //Звполнят массив уникальными рандомными числами
+void Fill_Rand(int a, int b);					    //Р—Р°РїРѕР»РЅСЏРµС‚ РјР°СЃСЃРёРІ СЂР°РЅРґРѕРјРЅС‹РјРё С‡РёСЃР»Р°РјРё
+void Print(int a, int b);						    //Р’С‹РІРѕРґРёС‚ РјР°СЃСЃРёРІ РЅР° СЌРєСЂР°РЅ
+void Sortmin(const int SIZE, int arr[]);		    //CРѕСЂС‚РёСЂСѓРµС‚ РјР°СЃСЃРёРІ
+void Sortmax(const int SIZE, int arr[]);		    //CРѕСЂС‚РёСЂСѓРµС‚ РјР°СЃСЃРёРІ
+int Sum(const int SIZE, int arr[]);				    //Р’РѕР·РІСЂР°С‰Р°РµС‚ СЃСѓРјРјСѓ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°
+double Avg(int average, int arr[]);			    //Р’РѕР·РІСЂР°С‰Р°РµС‚ СЃСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РјР°СЃСЃРёРІР°
+int minValueIn(const int SIZE, int arr[]);		    //Р’РѕР·РІСЂР°С‰Р°РµС‚ РјРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР°
+int maxValueIn(const int SIZE, int arr[]);		    //Р’РѕР·РІСЂР°С‰Р°РµС‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР°
+void shiftLeft(const int SIZE, int arr[], int number);		    //Р¦РёРєР»РёС‡РµСЃРєРёР№ СЃРґРІРёРі РјР°СЃСЃРёРІР° РІР»РµРІРѕ РЅР° Р·Р°РґР°РЅРЅРѕРµ С‡РёСЃР»Рѕ
+void shiftRight(const int SIZE, int arr[], int number);		    //Р¦РёРєР»РёС‡РµСЃРєРёР№ СЃРґРІРёРі РјР°СЃСЃРёРІР° РІРїСЂР°РІРѕ РЅР° Р·Р°РґР°РЅРЅРѕРµ С‡РёСЃР»Рѕ
+int UniqueRand(const int SIZE, int arr[]);		    //Р—РІРїРѕР»РЅСЏС‚ РјР°СЃСЃРёРІ СѓРЅРёРєР°Р»СЊРЅС‹РјРё СЂР°РЅРґРѕРјРЅС‹РјРё С‡РёСЃР»Р°РјРё
 
 
 int SIZE = 0;
@@ -95,7 +95,7 @@ double Avg(const int SIZE, int arr[])
 #ifdef Dodelat
 int maxValueIn(const int SIZE, int arr[])
 {
-	//наналог от большего к меньшему
+	//РЅР°РЅР°Р»РѕРі РѕС‚ Р±РѕР»СЊС€РµРіРѕ Рє РјРµРЅСЊС€РµРјСѓ
 }
 #endif // Dodelat
 
